@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f4f8;
+}
+
+.cardContainer{
+    width: 90w;
+    max-width: 1170px;
+    margin: 3rem auto;
+    display: grid;
+    gap: 2rem;
+}
+
+.card{
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .cardContainer {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
